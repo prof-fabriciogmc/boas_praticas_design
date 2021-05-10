@@ -1,0 +1,44 @@
+/* Autor: Fabrício Galende Marques de Carvalho */
+/* Exemplificando classes reutilizáveis */
+
+
+/* Classes de layout*/
+/* .container{
+	 vertical-align: top;
+} */
+
+.coluna_45_70{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	height: 70vh;
+	border-style:solid;
+	padding: 10px;
+	margin: 2px;
+	box-sizing: border-box;
+	
+}
+
+
+/* Classes de botões */ 
+.btn-enviar{
+		display: inline-block;
+		width: 20ex;
+		text-align: center;
+		background-color: rgb(0,0,255);
+		color: white;
+		border-style: none;
+		border-radius: 10px;
+		margin: 5px;
+}
+
+.btn-enviar:hover{
+	font-weight: bolder;
+} 
+
+/* Classes para ancoras*/
+a{
+	text-decoration: none;
+}
+
+
